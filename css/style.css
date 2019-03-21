@@ -403,7 +403,7 @@ body {
     margin: 56px auto; }
   .portfolio .first {
     margin: 66px auto 10px auto; }
-  .portfolio .second {
+  .portfolio .nextProject {
     margin: 48px auto 10px; }
   .portfolio .project {
     padding: 20px;
@@ -418,7 +418,8 @@ body {
         width: 18px;
         height: 18px; }
     .portfolio .project .project-descr p {
-      color: #d1d7e0; }
+      color: #d1d7e0;
+      font-family:Lusitana, sans-serif; }
     .portfolio .project .project-img {
       width: 350px;
       margin: 40px auto;
