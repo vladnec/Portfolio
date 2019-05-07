@@ -166,7 +166,7 @@ body {
 .resume-main {
   grid-area: resume-main;
   display: grid;
-  grid-template-areas: "title" "education" "experience" "references";
+  grid-template-areas: "title" "education" "experience";
   animation: fadeIn 1s linear; }
 
 .main {
@@ -392,7 +392,7 @@ body {
 
 /* ==== Portfolio Page */
 .portfolio-container {
-  grid-template-areas: "avatar portfolio" "navbar portfolio" "contact portfolio" "about-me portfolio" "hobbies portfolio"; }
+  grid-template-areas: "avatar portfolio"  "navbar portfolio"  "contact portfolio" "about-me portfolio" "hobbies portfolio" ". portfolio" ; }
 
 .portfolio {
   grid-area: portfolio;

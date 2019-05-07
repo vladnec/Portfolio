@@ -50,6 +50,7 @@ $bigFont:Raleway, serif;
 	"contact resume-main"
 	"about-me resume-main"
 	". resume-main"
+	". resume-main"
 	"hobbies resume-main";
 	background-color: rgba(45, 40, 62, 0.6);
 }
@@ -486,11 +487,12 @@ $bigFont:Raleway, serif;
 .portfolio-container{
 	@extend %container;
 	grid-template-areas:
-	"avatar portfolio"
-	"navbar portfolio"
-	"contact portfolio"
+	"avatar   portfolio"
+	"navbar   portfolio"
+	"contact  portfolio"
 	"about-me portfolio"
-	"hobbies portfolio";
+	"hobbies  portfolio"
+	".        portfolio";
 }
 
 .portfolio{
